@@ -1,0 +1,27 @@
+{"doc_id":"refunds","revision":1,"title":"Refund requests","doc_type":"policy","groups":["public"],"path":"documents/refunds.txt","tombstone":false}
+{"doc_id":"refund-exceptions","revision":1,"title":"Refund exception approvals","doc_type":"policy","groups":["finance"],"path":"documents/refund-exceptions.txt","tombstone":false}
+{"doc_id":"settlement","revision":1,"title":"Settlement schedule","doc_type":"policy","groups":["public"],"path":"documents/settlement.txt","tombstone":false}
+{"doc_id":"settlement-delay","revision":1,"title":"Delayed settlement response","doc_type":"runbook","groups":["operations"],"path":"documents/settlement-delay.txt","tombstone":false}
+{"doc_id":"keys","revision":1,"title":"Service key rotation","doc_type":"runbook","groups":["operations"],"path":"documents/keys.txt","tombstone":false}
+{"doc_id":"webhooks","revision":1,"title":"Webhook delivery","doc_type":"runbook","groups":["public"],"path":"documents/webhooks.txt","tombstone":false}
+{"doc_id":"disputes","revision":1,"title":"Dispute evidence","doc_type":"policy","groups":["risk"],"path":"documents/disputes.txt","tombstone":false}
+{"doc_id":"duplicate-public","revision":1,"title":"Duplicate payment FAQ","doc_type":"faq","groups":["public"],"path":"documents/duplicate-public.txt","tombstone":false}
+{"doc_id":"duplicate-risk","revision":1,"title":"Risk duplicate payment FAQ","doc_type":"faq","groups":["risk"],"path":"documents/duplicate-risk.txt","tombstone":false}
+{"doc_id":"incident","revision":1,"title":"Payment incident response","doc_type":"runbook","groups":["operations"],"path":"documents/incident.txt","tombstone":false}
+{"doc_id":"retention","revision":1,"title":"Payment record retention","doc_type":"policy","groups":["public"],"path":"documents/retention.txt","tombstone":false}
+{"doc_id":"data-export","revision":1,"title":"Customer data export","doc_type":"runbook","groups":["support"],"path":"documents/data-export.txt","tombstone":false}
+{"doc_id":"invoice","revision":1,"title":"Invoice correction FAQ","doc_type":"faq","groups":["public"],"path":"documents/invoice.txt","tombstone":false}
+{"doc_id":"refund-title-distractor","revision":1,"title":"Refund deadlines and settlement key rotation","doc_type":"faq","groups":["public"],"path":"documents/refund-title-distractor.txt","tombstone":false}
+{"doc_id":"instruction-note","revision":1,"title":"Imported instruction example","doc_type":"faq","groups":["public"],"path":"documents/instruction-note.txt","tombstone":false}
+{"doc_id":"oncall","revision":1,"title":"On-call handover","doc_type":"runbook","groups":["operations"],"path":"documents/oncall.txt","tombstone":false}
+{"doc_id":"merchant-setup","revision":1,"title":"Merchant activation","doc_type":"runbook","groups":["public"],"path":"documents/merchant-setup.txt","tombstone":false}
+{"doc_id":"payout-calendar","revision":1,"title":"Payout holidays","doc_type":"faq","groups":["public"],"path":"documents/payout-calendar.txt","tombstone":false}
+{"doc_id":"long-reconciliation","revision":1,"title":"Daily reconciliation handbook","doc_type":"runbook","groups":["finance"],"path":"documents/long-reconciliation.txt","tombstone":false}
+{"doc_id":"audit","revision":1,"title":"Audit evidence access","doc_type":"policy","groups":["finance"],"path":"documents/audit.txt","tombstone":false}
+{"doc_id":"invalid-unknown-group","revision":1,"title":"Unknown group fixture","doc_type":"faq","groups":["unknown"],"path":"documents/invalid-unknown-group.txt","tombstone":false}
+{"doc_id":"invalid-empty-groups","revision":1,"title":"Empty group fixture","doc_type":"faq","groups":[],"path":"documents/invalid-empty-groups.txt","tombstone":false}
+{"doc_id":"invalid-group-type","revision":1,"title":"Group type fixture","doc_type":"faq","groups":"public","path":"documents/invalid-group-type.txt","tombstone":false}
+{"doc_id":"invalid-encoding","revision":1,"title":"Invalid encoding fixture","doc_type":"faq","groups":["public"],"path":"documents/invalid-encoding.txt","tombstone":false}
+{"doc_id":"invalid-empty","revision":1,"title":"Empty text fixture","doc_type":"faq","groups":["public"],"path":"documents/invalid-empty.txt","tombstone":false}
+{"doc_id":"room-display-policy","revision":1,"title":"Meeting room display policy","doc_type":"policy","groups":["public"],"path":"documents/room-display-policy.txt","tombstone":false}
+{"doc_id":"facilities-display-runbook","revision":1,"title":"Facilities display runbook","doc_type":"runbook","groups":["public"],"path":"documents/facilities-display-runbook.txt","tombstone":false}

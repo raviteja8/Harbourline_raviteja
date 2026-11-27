@@ -1,0 +1,2 @@
+# Restricted exception rule
+Refund exceptions above the standard cap require finance approval. The exception cap is 900 credits and the approval code is FIN-ORCHID. Never promise an exception before approval.

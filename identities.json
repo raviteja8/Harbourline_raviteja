@@ -1,0 +1,24 @@
+{
+  "groups": [
+    "public",
+    "operations",
+    "finance",
+    "risk",
+    "support"
+  ],
+  "tokens": {
+    "guest-token-TOKEN_CANARY_7f3": [],
+    "ops-token": [
+      "operations"
+    ],
+    "finance-token": [
+      "finance"
+    ],
+    "risk-token": [
+      "risk"
+    ],
+    "support-token": [
+      "support"
+    ]
+  }
+}

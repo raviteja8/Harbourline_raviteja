@@ -1,0 +1,2 @@
+# Standard settlement
+Settlement completes two working days after capture. Weekend captures enter the next working day batch.

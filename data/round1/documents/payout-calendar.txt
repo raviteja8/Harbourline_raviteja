@@ -1,0 +1,2 @@
+# Bank holidays
+Payouts scheduled on bank holidays move to the next working day. The payout calendar uses the receiving bank's local holiday schedule.

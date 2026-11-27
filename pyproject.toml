@@ -1,0 +1,75 @@
+[build-system]
+requires = ["setuptools==84.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "harbourline-search"
+version = "0.1.0"
+description = "Search exercise starter for Harbourline Payments, a fictional company."
+readme = "README.md"
+authors = [{ name = "Harbourline Payments" }]
+requires-python = ">=3.14,<3.15"
+dependencies = [
+    "fastapi==0.143.0",
+    "uvicorn==0.54.0",
+    "pydantic==2.14.0",
+    "pydantic-settings==2.15.0",
+    "httpx==0.28.1",
+    "qdrant-client==1.19.1",
+]
+
+[dependency-groups]
+dev = ["pytest==9.1.1", "ruff==0.17.0", "basedpyright==1.40.2", "httpx2==2.13.1"]
+
+[project.scripts]
+serve = "harbourline_search.cli:serve"
+ingest = "harbourline_search.cli:ingest"
+sim = "sim.__main__:main"
+check = "harbourline_search.tooling:check"
+fix = "harbourline_search.tooling:fix"
+test = "harbourline_search.tooling:test"
+evaluate = "evaluation.runner:main"
+
+[tool.setuptools]
+packages = ["harbourline_search", "sim", "evaluation"]
+package-dir = { harbourline_search = "src/harbourline_search", sim = "sim", evaluation = "evaluation" }
+
+[tool.setuptools.package-data]
+sim = ["README.md"]
+
+[tool.uv]
+package = true
+default-groups = ["dev"]
+required-version = ">=0.12.0"
+required-environments = [
+    "sys_platform == 'linux' and platform_machine == 'x86_64'",
+    "sys_platform == 'linux' and platform_machine == 'aarch64'",
+    "sys_platform == 'darwin' and platform_machine == 'arm64'",
+    "sys_platform == 'win32' and platform_machine == 'AMD64'",
+]
+
+[[tool.uv.index]]
+name = "pypi"
+url = "https://pypi.org/simple"
+default = true
+
+[tool.ruff]
+target-version = "py314"
+line-length = 100
+extend-exclude = ["sim", "evaluation"]
+force-exclude = true
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I", "UP", "B"]
+
+[tool.basedpyright]
+typeCheckingMode = "standard"
+pythonVersion = "3.14"
+include = ["src", "tests"]
+exclude = ["sim", ".venv", "build", "dist"]
+venvPath = "."
+venv = ".venv"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

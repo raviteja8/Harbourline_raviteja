@@ -1,0 +1,2 @@
+# Identity check
+Before a customer data export, verify the account owner using the recorded support challenge. Deliver the encrypted export within ten working days.

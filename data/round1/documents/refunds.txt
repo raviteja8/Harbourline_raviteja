@@ -1,0 +1,4 @@
+# Refund window
+Refund requests expire after 30 calendar days from capture. A refund must reference the original payment.
+# Processing
+Approved refunds return to the original funding method within five working days.

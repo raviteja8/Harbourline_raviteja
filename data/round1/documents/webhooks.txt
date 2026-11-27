@@ -1,0 +1,4 @@
+# Retry window
+Failed webhook deliveries are retried for eight hours with increasing delays. A successful HTTP 200 acknowledgement ends retries.
+# Deduplication
+Deduplicate webhook events using the event identifier, not arrival time.

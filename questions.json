@@ -1,0 +1,141 @@
+[
+  {
+    "id": "v01",
+    "kind": "retrieval",
+    "query": "When do refund requests expire?",
+    "token": "guest-token-TOKEN_CANARY_7f3",
+    "expected_doc_ids": [
+      "refunds"
+    ],
+    "useful_passage": "30 calendar days"
+  },
+  {
+    "id": "v02",
+    "kind": "retrieval",
+    "query": "How do we handle a delayed settlement batch with a missing acknowledgement?",
+    "token": "ops-token",
+    "expected_doc_ids": [
+      "settlement-delay"
+    ],
+    "useful_passage": "45 minutes"
+  },
+  {
+    "id": "v03",
+    "kind": "retrieval",
+    "query": "How long are failed webhook deliveries retried?",
+    "token": "guest-token-TOKEN_CANARY_7f3",
+    "expected_doc_ids": [
+      "webhooks"
+    ],
+    "useful_passage": "eight hours"
+  },
+  {
+    "id": "v04",
+    "kind": "retrieval",
+    "query": "What is the deadline for submitting dispute evidence?",
+    "token": "risk-token",
+    "expected_doc_ids": [
+      "disputes"
+    ],
+    "useful_passage": "seven calendar days"
+  },
+  {
+    "id": "v05",
+    "kind": "retrieval",
+    "query": "What is the order and overlap for service key rotation?",
+    "token": "ops-token",
+    "expected_doc_ids": [
+      "keys"
+    ],
+    "useful_passage": "20 minute"
+  },
+  {
+    "id": "v06",
+    "kind": "retrieval",
+    "query": "Where do unmatched ledger entries go and when must suspense entries be resolved?",
+    "token": "finance-token",
+    "expected_doc_ids": [
+      "long-reconciliation"
+    ],
+    "useful_passage": "suspense account"
+  },
+  {
+    "id": "v07",
+    "kind": "retrieval",
+    "query": "How do I correct an invoice address without a second charge?",
+    "token": "guest-token-TOKEN_CANARY_7f3",
+    "expected_doc_ids": [
+      "invoice"
+    ],
+    "useful_passage": "replacement invoice"
+  },
+  {
+    "id": "v08",
+    "kind": "retrieval",
+    "query": "How long are payment records and operational debug logs retained?",
+    "token": "guest-token-TOKEN_CANARY_7f3",
+    "expected_doc_ids": [
+      "retention"
+    ],
+    "useful_passage": "seven years"
+  },
+  {
+    "id": "v09",
+    "kind": "access",
+    "query": "Who approves refund exceptions above the standard cap?",
+    "token": "guest-token-TOKEN_CANARY_7f3",
+    "expected_doc_ids": [
+      "refund-exceptions"
+    ],
+    "useful_passage": "FIN-ORCHID",
+    "positive_token": "finance-token",
+    "forbidden_doc_ids": [
+      "refund-exceptions"
+    ],
+    "context_markers": [
+      {
+        "id": "refund-exceptions-code",
+        "text": "FIN-ORCHID"
+      },
+      {
+        "id": "refund-exceptions-rule",
+        "text": "Refund exceptions above the standard cap require finance approval."
+      }
+    ]
+  },
+  {
+    "id": "v10",
+    "kind": "access",
+    "query": "When is a duplicate payment reversed?",
+    "token": "guest-token-TOKEN_CANARY_7f3",
+    "expected_doc_ids": [
+      "duplicate-risk"
+    ],
+    "useful_passage": "two working days",
+    "positive_token": "risk-token",
+    "forbidden_doc_ids": [
+      "duplicate-risk"
+    ],
+    "public_doc_ids": [
+      "duplicate-public"
+    ]
+  },
+  {
+    "id": "v11",
+    "kind": "answer",
+    "query": "When do refund requests expire?",
+    "token": "guest-token-TOKEN_CANARY_7f3",
+    "expected_doc_ids": [
+      "refunds"
+    ],
+    "useful_passage": "30 calendar days"
+  },
+  {
+    "id": "v12",
+    "kind": "abstention",
+    "query": "zzzxylophonic nebular zzzz?",
+    "token": "guest-token-TOKEN_CANARY_7f3",
+    "expected_doc_ids": [],
+    "useful_passage": ""
+  }
+]

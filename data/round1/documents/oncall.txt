@@ -1,0 +1,2 @@
+# Handover
+The outgoing on-call engineer records open incidents, paused jobs and the next settlement checkpoint. The incoming engineer confirms the handover before the shift ends.

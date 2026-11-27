@@ -1,0 +1,2 @@
+# Rotation
+Rotate a service key by creating its replacement, deploying the replacement, then revoking the old key. Allow a 20 minute overlap for key rotation. Never place service keys in incident logs.

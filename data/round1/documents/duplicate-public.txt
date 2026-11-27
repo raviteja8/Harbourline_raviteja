@@ -1,0 +1,2 @@
+# Duplicate payments
+A duplicate payment is reversed within two working days. Keep the original payment reference in the reversal record.

@@ -1,0 +1,2 @@
+# Correcting an invoice
+Correct an invoice address by issuing a replacement invoice with the same payment reference. A replacement invoice does not initiate a second charge.

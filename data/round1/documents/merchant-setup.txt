@@ -1,0 +1,2 @@
+# Activation
+Merchant activation requires a verified bank account and a completed identity review. Send a test payment before enabling live capture.

@@ -1,0 +1,2 @@
+# Incident ownership
+The incident commander coordinates payment incident response. Publish a customer update every 30 minutes until payment processing recovers.

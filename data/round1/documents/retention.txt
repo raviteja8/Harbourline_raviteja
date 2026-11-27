@@ -1,0 +1,2 @@
+# Retention
+Payment records are retained for seven years after the payment date. Operational debug logs are retained for 14 days. Remove personal data from debug logs.

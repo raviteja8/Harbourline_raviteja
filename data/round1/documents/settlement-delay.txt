@@ -1,0 +1,2 @@
+# Delayed batch
+For a delayed settlement batch, compare the batch identifier with the bank acknowledgement. Escalate a missing acknowledgement after 45 minutes to the payments operator. Do not replay a settled batch.

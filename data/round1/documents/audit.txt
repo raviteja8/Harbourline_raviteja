@@ -1,0 +1,2 @@
+# Audit vault
+Audit evidence packages remain in the finance evidence vault. Audit vault access requires a finance reviewer and expires after 24 hours.
